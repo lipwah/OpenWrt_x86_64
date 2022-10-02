@@ -14,6 +14,11 @@ name: Update Checker
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
+  REPO_PATH_Lede : "lede"
+  
+  REPO_URL_HelloWorld: https://github.com/fw876/helloworld
+  REPO_BRANCH_HelloWorld: master
+  REPO_PATH_HelloWorld : "helloworld"
 
 on:
   workflow_dispatch:
