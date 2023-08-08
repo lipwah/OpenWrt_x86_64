@@ -13,7 +13,7 @@
 #第三方插件
 rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git luci-theme-argon
-git clone https://github.com/jerrykuku/luci-app-argon-config package/lean/luci-app-argon-config
+git clone -b 18.06 https://github.com/jerrykuku/luci-app-argon-config.git luci-app-argon-config
 git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan
 
 # Uncomment a feed source
