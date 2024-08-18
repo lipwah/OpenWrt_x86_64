@@ -17,7 +17,7 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-app-argon-config.git luci-a
 git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan
 
 # Uncomment a feed source
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+sed -i "/helloworld/d" "feeds.conf.default"
 
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
